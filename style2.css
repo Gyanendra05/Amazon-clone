@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #0066c0; */
+}
+.logo{
+    background-image: url(amazon_PNG13.png);
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.border{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border: 1px solid #a6a6a6;
+    border-radius: 8px;
+
+    height: 320px;
+    width: 296px;
+    padding: 20px 26px;
+    position: relative;
+}
+h1{
+    width: 296px;
+    height: 33.600px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.2;
+
+}
+.email{
+    height: 19px;
+    width: 294px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-size: 14px;
+    font-weight: 550;
+
+}
+.details input{
+    height: 23px;
+    width: 282px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+    padding: 3px 7px;
+    color: #0f1111;
+    background-color: #ffffff;
+}
+.details input:hover{
+    background-color: #f7feff;
+    border-color: #007185;
+    box-shadow: 0 0 0 3px #c8f3fa, 0 1px 2px rgba(15,17,17,.15) inset;
+}
+.btn{
+    height: 27px;
+    width: 296.400px;
+    padding: 1px 6px;
+    border: none;
+    color: #0f1111;
+    cursor: pointer;
+    /* -webkit-appearance: button; */
+    position: absolute;
+    /* background-color: transparent; */
+    /* overflow: visible; */
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    margin-top: 15px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #f1b723;
+}
+.terms{
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 100;
+    
+
+    
+}
+.terms a{
+    text-decoration: none;
+    color: #0066c0; 
+}
+.terms a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+}
+.help i:hover{
+    cursor: pointer;
+
+    
+
+}
+.help{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 22px;
+}
+.expand{
+    margin-left: 5px;
+    color: #0066c0;
+    font-size: 15px;
+}
+.expand:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+}
+.business{
+    border-top: 1px solid grey;
+    margin-top: 30px;
+}
+.business p{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.business a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: #0066c0;
+    font-size: 15px;
+}
+.business a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+}
+
+html{
+    -webkit-text-size-adjust: 100%;
+}
